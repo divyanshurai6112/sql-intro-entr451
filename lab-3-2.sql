@@ -40,3 +40,7 @@
 -- +-------------------------------+------------------+
 
 
+
+
+
+select name, avg(wins) as AVERAGE_WINS from teams where year >=2001 group by name;

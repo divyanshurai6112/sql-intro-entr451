@@ -4,3 +4,4 @@
 -- 2935
 
 
+select hits from stats where 

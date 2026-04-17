@@ -16,3 +16,4 @@
 -- | 2004 | St. Louis Cardinals           | 105       |
 
 
+select year, name, max(wins) as max_wins from teams where year>=1960 group by year order by year desc;
